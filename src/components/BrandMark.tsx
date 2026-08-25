@@ -20,9 +20,10 @@ export function BrandMark({
         width={LOGO.width}
         height={LOGO.height}
         priority
+        quality={100}
         className={
           compact
-            ? "h-16 w-auto max-w-[11.5rem] object-contain object-left sm:h-[4.5rem] sm:max-w-[13rem] md:h-20 md:max-w-[15rem]"
+            ? "h-[4.75rem] w-auto max-w-[13rem] object-contain object-left sm:h-20 sm:max-w-[15rem] md:h-[5.5rem] md:max-w-[17rem]"
             : "h-36 w-auto max-w-[16rem] object-contain object-left sm:h-44 sm:max-w-[20rem]"
         }
       />

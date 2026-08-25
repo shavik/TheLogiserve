@@ -26,6 +26,14 @@ export const metadata: Metadata = {
   },
   description:
     "A presentation of how freight actually works: air, ocean, and surface transportation, freight forwarding, and customs clearance.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/logo-mark.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/logo-mark.png", sizes: "180x180" }],
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

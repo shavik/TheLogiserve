@@ -16,7 +16,6 @@ import {
   IconForward,
   IconOcean,
   IconSurface,
-  RouteMap,
   serviceIcons,
 } from "@/components/Icons";
 
@@ -176,7 +175,6 @@ export function Deck() {
             Request a shipment plan
           </Link>
         </div>
-        <RouteMap className="float-y mt-8 hidden h-40 w-full max-w-3xl opacity-90 lg:block" />
       </Slide>
 
       <Slide id="understand">

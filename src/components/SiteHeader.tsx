@@ -10,8 +10,12 @@ export function SiteHeader() {
 
   return (
     <header className="pointer-events-none fixed inset-x-0 top-0 z-40">
-      <div className="pointer-events-auto mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-8">
-        <Link href="/" className="rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-copper">
+      <div className="pointer-events-auto mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-3 md:px-8">
+        <Link
+          href="/"
+          aria-label="THE LOGISERVE — We serve logistics with ease"
+          className="rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-copper"
+        >
           <BrandMark compact />
         </Link>
         <nav className="hidden items-center gap-8 text-sm text-paper-dim md:flex">
